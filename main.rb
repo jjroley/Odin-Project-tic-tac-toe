@@ -93,7 +93,7 @@ class Game
       if(type.length > 1 || !type.match(/x|o/))
         puts 'That is an invalid response'
       else
-        puts "You: #{type}\nComputer: #{type == 'x' ? 'o' : 'X'}"
+        puts "You: #{type}\nComputer: #{type == 'x' ? 'o' : 'x'}"
         break
       end
     end
